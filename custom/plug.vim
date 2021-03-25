@@ -17,5 +17,6 @@ Plug 'pineapplegiant/spaceduck', { 'branch': 'main' }
 Plug 'dense-analysis/ale'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'tpope/vim-surround'
 
 call plug#end()
