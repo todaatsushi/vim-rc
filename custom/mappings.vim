@@ -15,3 +15,14 @@ nnoremap <C-f> :NERDTreeFind<CR>
 
 imap jj <ESC>
 nnoremap <leader>cp :let @" = expand("%")<cr>
+
+" Window navigation "
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+
+" Shortcuts "
+inoremap ipdb import ipdb; ipdb.set_trace()
+vnoremap <silent> # :s/^/#/<cr>:noh<cr>
+vnoremap <silent> -# :s/^#//<cr>:noh<cr>
